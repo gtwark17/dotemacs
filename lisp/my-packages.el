@@ -25,6 +25,7 @@
     ruby-guard
     scss-mode
     smartparens
+		smex
     web-mode
     zenburn-theme
   ))

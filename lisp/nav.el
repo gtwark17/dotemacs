@@ -19,6 +19,18 @@
 (ido-mode 1)
   (ido-vertical-mode 1)
     (setq ido-vertical-define-keys 'C-n-and-C-p-only)
+
+(smex-initialize)
+; hypen on space for Smex
+(defadvice smex (around space-inserts-hyphen activate compile)
+	(let ((ido-cannot-complete-command
+				 `(lambda ()
+						(interactive)
+						(if (string= " " (this-command-keys))
+								(insert ?-)
+							(funcall ,ido-cannot-complete-command)))))
+		ad-do-it))
+
 (projectile-global-mode)
 (smartparens-global-mode 1)
 
