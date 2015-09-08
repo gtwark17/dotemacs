@@ -1,0 +1,5 @@
+* Geoff Wark's dotemacs
+
+These are my personal GNU Emacs configurations. It is intended for use under OS X.
+
+*NO SUPPORT WILL BE PROVIDED!!*
