@@ -18,6 +18,7 @@
     ido-vertical-mode
     magit
     multiple-cursors
+		neotree
     nyan-mode
     projectile
     rainbow-mode

@@ -2,6 +2,8 @@
 
 (require 'expand-region)
 (require 'multiple-cursors)
+(require 'neotree)
+  (global-set-key [f8] 'neotree-toggle)
 
 
 (global-unset-key (kbd "M-<down-mouse-1>"))
