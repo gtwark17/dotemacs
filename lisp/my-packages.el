@@ -17,6 +17,7 @@
     hl-indent
     ido-vertical-mode
     magit
+		matlab
     multiple-cursors
 		neotree
     nyan-mode
