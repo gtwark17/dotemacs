@@ -32,3 +32,6 @@
 
 (add-hook 'emacs-startup-hook (lambda () (toggle-frame-maximized)))
 (add-hook 'emacs-startup-hook (lambda () (split-window-right)))
+
+; Make comments italicized
+(make-face-italic 'font-lock-comment-face)
