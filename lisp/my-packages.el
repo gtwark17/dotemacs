@@ -17,9 +17,9 @@
     hl-indent
     ido-vertical-mode
     magit
-		matlab
+    matlab-mode
     multiple-cursors
-		neotree
+    neotree
     nyan-mode
     projectile
     rainbow-mode
@@ -27,7 +27,7 @@
     ruby-guard
     scss-mode
     smartparens
-		smex
+    smex
     web-mode
     zenburn-theme
   ))
